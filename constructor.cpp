@@ -96,6 +96,7 @@ void Date::ShowDate()
 int main()
 {
     Date day(2024, 3, 21);
+    day.ShowDate();
     // today:2024.3.21
 
     day.AddDay(30);
